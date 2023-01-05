@@ -1,5 +1,7 @@
 import java.lang.reflect.Constructor;
 
+import javax.swing.SortingFocusTraversalPolicy;
+
 // package OOP_Java.Sem_1;
 
 public class People {
@@ -24,6 +26,7 @@ public class People {
         return id;
     }
     public String getName(){
+        String result =  "Имя" + name;
         return name;
     }
     public String getGender(){
@@ -51,15 +54,12 @@ public class People {
     public void setSocial_status(String social_status){
         this.social_status = social_status; 
     }
-    
     public void Hello(){
-        System.out.println("Привет!");
+        System.out.println("Привет!"+ name);
     }
     public void Myperents(){
-        System.out.println();
+        System.out.println(name);
     }
 
-
-
-
+    
 }
