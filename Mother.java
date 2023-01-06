@@ -6,8 +6,12 @@ public class Mother extends People{
         super(i, name, string12, j, string13);
         //TODO Auto-generated constructor stub
     }
+    public void placeBirths(String placeBirths){
+        System.out.println("Я родилась" + placeBirths);
+    }
+
     @Override
-    public void Myperents(){
+    public void Hello(){
         System.out.println("Привет, я мать!");
     }
 }

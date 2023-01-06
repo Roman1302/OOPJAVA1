@@ -61,5 +61,10 @@ public class People {
         System.out.println(name);
     }
 
-    
+    protected void changeId(){
+        System.out.println(changePersonID());
+    }
+    private int changePersonID(){
+        return id++;
+    }
 }
