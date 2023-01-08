@@ -11,16 +11,21 @@ public class People {
     private Integer age;
     private String social_status;
     
-    public People(int i, String string, String string2, int j, String string3) {
-    }
-
-    public void People(Integer id, String name, String gender, Integer age, String social_status){
+    public People(Integer id, String name, String gender, Integer age, String social_status) {
         this.id = id;
         this.name = name;
         this.gender = gender;
         this.age = age;
         this.social_status = social_status;
     }
+
+    // public void People(Integer id, String name, String gender, Integer age, String social_status){
+    //     this.id = id;
+    //     this.name = name;
+    //     this.gender = gender;
+    //     this.age = age;
+    //     this.social_status = social_status;
+    // }
 
     public Integer getId(){
         return id;
@@ -55,7 +60,7 @@ public class People {
         this.social_status = social_status; 
     }
     public void Hello(){
-        System.out.println("Привет!"+ name);
+        System.out.println("Привет! а я " + name);
     }
     public void Myperents(){
         System.out.println(name);
