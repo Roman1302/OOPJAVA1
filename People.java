@@ -1,5 +1,6 @@
 import java.lang.reflect.Constructor;
 
+import javax.sound.sampled.SourceDataLine;
 import javax.swing.SortingFocusTraversalPolicy;
 
 // package OOP_Java.Sem_1;
@@ -10,6 +11,7 @@ public class People {
     private String gender;
     private Integer age;
     private String social_status;
+    
     
     public People(Integer id, String name, String gender, Integer age, String social_status) {
         this.id = id;
@@ -71,5 +73,7 @@ public class People {
     }
     private int changePersonID(){
         return id++;
+        
     }
+
 }
